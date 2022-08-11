@@ -131,6 +131,10 @@
   outline: none;
 }
 
+.explore .main-container .main .main-right .main-search .main-right-top .search-box svg {
+  cursor: pointer;
+}
+
 .explore .main-container .main .main-right .main-search .main-right-bottom {
   text-align: right;
 }
@@ -189,7 +193,17 @@
 
 .explore .categories-container .categories .category {
   padding: 0.2rem 1.5rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
   border: 1px solid #e7e7e7;
+  cursor: pointer;
+}
+
+.explore .categories-container .categories .category svg {
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+}
+
+.explore .categories-container .categories .category:hover {
+  background: #e7e7e7;
 }
 /*# sourceMappingURL=explore.css.map */

@@ -26,7 +26,7 @@ const Explore = () => {
                             <div className='sub-title'>Find your wallpaper</div>
                             <div className='title'>Right Here.</div>
                             <div className='webpage'>
-                                <a href="https://github.com/prajeshElEvEn/wallpaper-io">
+                                <a href="https://github.com/prajeshElEvEn/wallpaper-io" target="_blank" rel="noreferrer">
                                     <span>
                                         Wallpaper.io
                                     </span>
