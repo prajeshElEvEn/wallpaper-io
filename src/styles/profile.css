@@ -1,0 +1,64 @@
+.profile {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.profile .navbar-container {
+  padding: 0.5rem 0;
+}
+
+.profile .navbar-container .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.profile .navbar-container .navbar .nav-left {
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.profile .navbar-container .navbar .nav-left:hover {
+  background: #e7e7e7;
+}
+
+.profile .navbar-container .navbar .nav-left a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.profile .navbar-container .navbar .nav-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.profile .navbar-container .navbar .nav-right .nav-item {
+  padding: 0.2rem 0.4rem;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.profile .navbar-container .navbar .nav-right .nav-item a svg {
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+}
+
+.profile .navbar-container .navbar .nav-right .nav-item:hover {
+  background: #e7e7e7;
+}
+/*# sourceMappingURL=profile.css.map */
