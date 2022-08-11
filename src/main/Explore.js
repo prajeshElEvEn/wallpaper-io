@@ -37,7 +37,7 @@ const Explore = () => {
                                 </a>
                             </div>
                             <div className='end-title'>
-                                Your palce to find <span>#1</span> wallpapers.
+                                Your place to find <span>#1</span> wallpapers.
                             </div>
                         </div>
                     </div>
