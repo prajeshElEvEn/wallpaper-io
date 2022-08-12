@@ -135,7 +135,7 @@
           align-items: center;
   gap: 0.5rem;
   padding: 0.2rem 0.5rem;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid #e7e7e7;
 }
 
@@ -152,7 +152,7 @@
           align-items: center;
   gap: 0.5rem;
   padding: 0.2rem 0.5rem;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid #e7e7e7;
 }
 
@@ -162,7 +162,7 @@
 
 .profile .dashboard-container .dashboard .dash-right .bio-container {
   border: 1px solid #e7e7e7;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 0.5rem 0.5rem 0.5rem 1rem;
 }
 
@@ -184,7 +184,7 @@
 
 .profile .dashboard-container .dashboard .dash-right .bio-container .bio .edit-text {
   padding: 0.2rem 0.5rem;
-  border-radius: 5px;
+  border-radius: 10px;
   background: #fff;
   cursor: pointer;
 }
@@ -196,5 +196,44 @@
 
 .profile .dashboard-container .dashboard .dash-right .bio-container .bio .edit-text:hover {
   background: #e7e7e7;
+}
+
+.profile .dashboard-container .dashboard .upload-container {
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #e7e7e7;
+}
+
+.profile .dashboard-container .dashboard .upload-container .upload {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+}
+
+.profile .dashboard-container .dashboard .upload-container .upload .upload-text {
+  color: #a7a7a7;
+}
+
+.profile .dashboard-container .dashboard .upload-container .upload .upload-btn {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background: #e7e7e7;
+}
+
+.profile .dashboard-container .dashboard .upload-container .upload .upload-btn:hover {
+  background: #ddd;
+}
+
+.profile .dashboard-container .dashboard .upload-container .upload .upload-btn:active {
+  background: #eee;
 }
 /*# sourceMappingURL=profile.css.map */

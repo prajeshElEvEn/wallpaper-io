@@ -77,8 +77,7 @@
 }
 
 .signup .signup-form .form .form-btn input:hover {
-  cursor: pointer;
-  background: #e7e7e7;
+  background: #000;
 }
 
 .signup .signup-form .form .form-btn input:active {

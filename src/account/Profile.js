@@ -71,6 +71,16 @@ const Profile = () => {
                             </div>
                         </div>
                     </div>
+                    <div className='upload-container'>
+                        <div className='upload'>
+                            <div className='upload-text'>
+                                Upload your wallpaper (1920x1080 or 1080x1920).
+                            </div>
+                            <div className='upload-btn'>
+                                Upload
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
