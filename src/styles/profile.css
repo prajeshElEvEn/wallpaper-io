@@ -61,4 +61,140 @@
 .profile .navbar-container .navbar .nav-right .nav-item:hover {
   background: #e7e7e7;
 }
+
+.profile .dashboard-container {
+  padding: 4rem 0;
+}
+
+.profile .dashboard-container .dashboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  gap: 2rem;
+}
+
+.profile .dashboard-container .dashboard .dash-left .pfp {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background: #e7e7e7;
+}
+
+.profile .dashboard-container .dashboard .dash-right {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+}
+
+.profile .dashboard-container .dashboard .dash-right .top-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.profile .dashboard-container .dashboard .dash-right .top-bar .username {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.profile .dashboard-container .dashboard .dash-right .top-bar .username span {
+  color: #a7a7a7;
+}
+
+.profile .dashboard-container .dashboard .dash-right .top-bar .numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.profile .dashboard-container .dashboard .dash-right .top-bar .numbers .downloads {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #e7e7e7;
+}
+
+.profile .dashboard-container .dashboard .dash-right .top-bar .numbers .downloads span {
+  color: #a7a7a7;
+}
+
+.profile .dashboard-container .dashboard .dash-right .top-bar .numbers .likes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #e7e7e7;
+}
+
+.profile .dashboard-container .dashboard .dash-right .top-bar .numbers .likes span {
+  color: #a7a7a7;
+}
+
+.profile .dashboard-container .dashboard .dash-right .bio-container {
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+}
+
+.profile .dashboard-container .dashboard .dash-right .bio-container .bio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.profile .dashboard-container .dashboard .dash-right .bio-container .bio .bio-text {
+  height: 100px;
+}
+
+.profile .dashboard-container .dashboard .dash-right .bio-container .bio .edit-text {
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.profile .dashboard-container .dashboard .dash-right .bio-container .bio .edit-text svg {
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+}
+
+.profile .dashboard-container .dashboard .dash-right .bio-container .bio .edit-text:hover {
+  background: #e7e7e7;
+}
 /*# sourceMappingURL=profile.css.map */
