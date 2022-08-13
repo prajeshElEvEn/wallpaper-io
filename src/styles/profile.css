@@ -58,6 +58,11 @@
           transform: translateY(3px);
 }
 
+.profile .navbar-container .navbar .nav-right .nav-item svg {
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+}
+
 .profile .navbar-container .navbar .nav-right .nav-item:hover {
   background: #e7e7e7;
 }
