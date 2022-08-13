@@ -126,3 +126,76 @@
                             background: #ddd
                         &:active
                             background: #eee
+    .gallery
+        .gallery-container
+            border-top: 1px solid #e7e7e7
+            margin-top: 1rem
+            padding-bottom: 2rem
+            .gallery-header
+                display: flex
+                align-items: center
+                gap: 1rem
+                transform: translate(30px, -20px)
+                .header
+                    display: flex
+                    align-items: center
+                    gap: 0.5rem
+                    background: #fff
+                    border: 1px solid #e7e7e7
+                    border-radius: 50px
+                    padding: 0.4rem 1rem
+                    cursor: pointer
+                    &:hover
+                        background: #e7e7e7
+                    .header-text
+                        font-weight: 700
+            .cards-container
+                display: flex
+                gap: 3rem
+                flex-wrap: wrap
+                .card
+                    width: 400px
+                    // border: 1px solid #e7e7e7
+                    // border-radius: 20px
+                    // margin-bottom: 1rem
+                    .card-image
+                        background: #e7e7e7
+                        height: 240px
+                        border-radius: 20px 20px 0 0
+                    .card-data-container
+                        padding: 1rem 0
+                        .card-data
+                            display: flex
+                            align-items: center
+                            justify-content: space-between
+                            .data-left
+                                display: flex
+                                gap: 0.5rem
+                                .card-pfp
+                                    height: 50px
+                                    width: 50px
+                                    border-radius: 50%
+                                    background: #e7e7e7
+                                .image-data
+                                    .image-title
+                                        font-weight: 500
+                                    .image-author
+                                        color: #a7a7a7
+                            .image-stats
+                                display: flex
+                                align-items: center
+                                gap: 1rem
+                                .image-likes
+                                    display: flex
+                                    flex-direction: column
+                                    justify-content: space-between
+                                    align-items: center
+                                    .likes-count
+                                        color: #a7a7a7
+                                .image-downloads
+                                    display: flex
+                                    flex-direction: column
+                                    justify-content: space-between
+                                    align-items: center
+                                    .downloads-count
+                                        color: #a7a7a7

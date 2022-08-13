@@ -83,6 +83,328 @@ const Profile = () => {
                     </div>
                 </div>
             </div>
+
+            <div className='gallery'>
+                <div className='gallery-container'>
+                    <div className='gallery-header'>
+                        <div className='header'>
+                            <div className='header-text'>
+                                Uploads
+                            </div>
+                            <svg width="24" height="24" fill="#000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11 15h2V9h3l-4-5-4 5h3v6Z"></path>
+                                <path d="M20 18H4v-7H2v7c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-7h-2v7Z"></path>
+                            </svg>
+                        </div>
+                        <div className='header'>
+                            <div className='header-text'>
+                                Bookmarks
+                            </div>
+                            <svg width="24" height="24" fill="#000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19 10.133v-6c0-1.103-.897-2-2-2H7c-1.103 0-2 .897-2 2V22l7-4.666L19 22V10.133Z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div className='cards-container'>
+                        <div className='card'>
+                            <div className='card-image'></div>
+                            <div className='card-data-container'>
+                                <div className='card-data'>
+                                    <div className='data-left'>
+                                        <div className='card-pfp'></div>
+                                        <div className='image-data'>
+                                            <div className='image-title'>
+                                                Nature's Beauty
+                                            </div>
+                                            <div className='image-author'>
+                                                @username
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='image-stats'>
+                                        <div className='image-likes'>
+                                            <svg width="24" height="24" fill="#000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M20.206 4.793a5.938 5.938 0 0 0-4.21-1.754 5.9 5.9 0 0 0-3.995 1.558 5.904 5.904 0 0 0-6.279-1.1 5.942 5.942 0 0 0-1.93 1.3c-2.354 2.363-2.353 6.06.001 8.412L12 21.416l8.207-8.207c2.354-2.353 2.355-6.049-.002-8.416Z"></path>
+                                            </svg>
+                                            <div className='likes-count'>
+                                                1m
+                                            </div>
+                                        </div>
+                                        <div className='image-downloads'>
+                                            <svg width="24" height="24" fill="#000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="m12 16 4-5h-3V4h-2v7H8l4 5Z"></path>
+                                                <path d="M20 18H4v-7H2v7c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-7h-2v7Z"></path>
+                                            </svg>
+                                            <div className='downloads-count'>
+                                                1k
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='card'>
+                            <div className='card-image'></div>
+                            <div className='card-data-container'>
+                                <div className='card-data'>
+                                    <div className='data-left'>
+                                        <div className='card-pfp'></div>
+                                        <div className='image-data'>
+                                            <div className='image-title'>
+                                                Nature's Beauty
+                                            </div>
+                                            <div className='image-author'>
+                                                @username
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='image-stats'>
+                                        <div className='image-likes'>
+                                            <svg width="24" height="24" fill="#000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M20.206 4.793a5.938 5.938 0 0 0-4.21-1.754 5.9 5.9 0 0 0-3.995 1.558 5.904 5.904 0 0 0-6.279-1.1 5.942 5.942 0 0 0-1.93 1.3c-2.354 2.363-2.353 6.06.001 8.412L12 21.416l8.207-8.207c2.354-2.353 2.355-6.049-.002-8.416Z"></path>
+                                            </svg>
+                                            <div className='likes-count'>
+                                                1m
+                                            </div>
+                                        </div>
+                                        <div className='image-downloads'>
+                                            <svg width="24" height="24" fill="#000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="m12 16 4-5h-3V4h-2v7H8l4 5Z"></path>
+                                                <path d="M20 18H4v-7H2v7c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-7h-2v7Z"></path>
+                                            </svg>
+                                            <div className='downloads-count'>
+                                                1k
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='card'>
+                            <div className='card-image'></div>
+                            <div className='card-data-container'>
+                                <div className='card-data'>
+                                    <div className='data-left'>
+                                        <div className='card-pfp'></div>
+                                        <div className='image-data'>
+                                            <div className='image-title'>
+                                                Nature's Beauty
+                                            </div>
+                                            <div className='image-author'>
+                                                @username
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='image-stats'>
+                                        <div className='image-likes'>
+                                            <svg width="24" height="24" fill="#000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M20.206 4.793a5.938 5.938 0 0 0-4.21-1.754 5.9 5.9 0 0 0-3.995 1.558 5.904 5.904 0 0 0-6.279-1.1 5.942 5.942 0 0 0-1.93 1.3c-2.354 2.363-2.353 6.06.001 8.412L12 21.416l8.207-8.207c2.354-2.353 2.355-6.049-.002-8.416Z"></path>
+                                            </svg>
+                                            <div className='likes-count'>
+                                                1m
+                                            </div>
+                                        </div>
+                                        <div className='image-downloads'>
+                                            <svg width="24" height="24" fill="#000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="m12 16 4-5h-3V4h-2v7H8l4 5Z"></path>
+                                                <path d="M20 18H4v-7H2v7c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-7h-2v7Z"></path>
+                                            </svg>
+                                            <div className='downloads-count'>
+                                                1k
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='card'>
+                            <div className='card-image'></div>
+                            <div className='card-data-container'>
+                                <div className='card-data'>
+                                    <div className='data-left'>
+                                        <div className='card-pfp'></div>
+                                        <div className='image-data'>
+                                            <div className='image-title'>
+                                                Nature's Beauty
+                                            </div>
+                                            <div className='image-author'>
+                                                @username
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='image-stats'>
+                                        <div className='image-likes'>
+                                            <svg width="24" height="24" fill="#000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M20.206 4.793a5.938 5.938 0 0 0-4.21-1.754 5.9 5.9 0 0 0-3.995 1.558 5.904 5.904 0 0 0-6.279-1.1 5.942 5.942 0 0 0-1.93 1.3c-2.354 2.363-2.353 6.06.001 8.412L12 21.416l8.207-8.207c2.354-2.353 2.355-6.049-.002-8.416Z"></path>
+                                            </svg>
+                                            <div className='likes-count'>
+                                                1m
+                                            </div>
+                                        </div>
+                                        <div className='image-downloads'>
+                                            <svg width="24" height="24" fill="#000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="m12 16 4-5h-3V4h-2v7H8l4 5Z"></path>
+                                                <path d="M20 18H4v-7H2v7c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-7h-2v7Z"></path>
+                                            </svg>
+                                            <div className='downloads-count'>
+                                                1k
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='card'>
+                            <div className='card-image'></div>
+                            <div className='card-data-container'>
+                                <div className='card-data'>
+                                    <div className='data-left'>
+                                        <div className='card-pfp'></div>
+                                        <div className='image-data'>
+                                            <div className='image-title'>
+                                                Nature's Beauty
+                                            </div>
+                                            <div className='image-author'>
+                                                @username
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='image-stats'>
+                                        <div className='image-likes'>
+                                            <svg width="24" height="24" fill="#000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M20.206 4.793a5.938 5.938 0 0 0-4.21-1.754 5.9 5.9 0 0 0-3.995 1.558 5.904 5.904 0 0 0-6.279-1.1 5.942 5.942 0 0 0-1.93 1.3c-2.354 2.363-2.353 6.06.001 8.412L12 21.416l8.207-8.207c2.354-2.353 2.355-6.049-.002-8.416Z"></path>
+                                            </svg>
+                                            <div className='likes-count'>
+                                                1m
+                                            </div>
+                                        </div>
+                                        <div className='image-downloads'>
+                                            <svg width="24" height="24" fill="#000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="m12 16 4-5h-3V4h-2v7H8l4 5Z"></path>
+                                                <path d="M20 18H4v-7H2v7c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-7h-2v7Z"></path>
+                                            </svg>
+                                            <div className='downloads-count'>
+                                                1k
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='card'>
+                            <div className='card-image'></div>
+                            <div className='card-data-container'>
+                                <div className='card-data'>
+                                    <div className='data-left'>
+                                        <div className='card-pfp'></div>
+                                        <div className='image-data'>
+                                            <div className='image-title'>
+                                                Nature's Beauty
+                                            </div>
+                                            <div className='image-author'>
+                                                @username
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='image-stats'>
+                                        <div className='image-likes'>
+                                            <svg width="24" height="24" fill="#000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M20.206 4.793a5.938 5.938 0 0 0-4.21-1.754 5.9 5.9 0 0 0-3.995 1.558 5.904 5.904 0 0 0-6.279-1.1 5.942 5.942 0 0 0-1.93 1.3c-2.354 2.363-2.353 6.06.001 8.412L12 21.416l8.207-8.207c2.354-2.353 2.355-6.049-.002-8.416Z"></path>
+                                            </svg>
+                                            <div className='likes-count'>
+                                                1m
+                                            </div>
+                                        </div>
+                                        <div className='image-downloads'>
+                                            <svg width="24" height="24" fill="#000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="m12 16 4-5h-3V4h-2v7H8l4 5Z"></path>
+                                                <path d="M20 18H4v-7H2v7c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-7h-2v7Z"></path>
+                                            </svg>
+                                            <div className='downloads-count'>
+                                                1k
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='card'>
+                            <div className='card-image'></div>
+                            <div className='card-data-container'>
+                                <div className='card-data'>
+                                    <div className='data-left'>
+                                        <div className='card-pfp'></div>
+                                        <div className='image-data'>
+                                            <div className='image-title'>
+                                                Nature's Beauty
+                                            </div>
+                                            <div className='image-author'>
+                                                @username
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='image-stats'>
+                                        <div className='image-likes'>
+                                            <svg width="24" height="24" fill="#000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M20.206 4.793a5.938 5.938 0 0 0-4.21-1.754 5.9 5.9 0 0 0-3.995 1.558 5.904 5.904 0 0 0-6.279-1.1 5.942 5.942 0 0 0-1.93 1.3c-2.354 2.363-2.353 6.06.001 8.412L12 21.416l8.207-8.207c2.354-2.353 2.355-6.049-.002-8.416Z"></path>
+                                            </svg>
+                                            <div className='likes-count'>
+                                                1m
+                                            </div>
+                                        </div>
+                                        <div className='image-downloads'>
+                                            <svg width="24" height="24" fill="#000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="m12 16 4-5h-3V4h-2v7H8l4 5Z"></path>
+                                                <path d="M20 18H4v-7H2v7c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-7h-2v7Z"></path>
+                                            </svg>
+                                            <div className='downloads-count'>
+                                                1k
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='card'>
+                            <div className='card-image'></div>
+                            <div className='card-data-container'>
+                                <div className='card-data'>
+                                    <div className='data-left'>
+                                        <div className='card-pfp'></div>
+                                        <div className='image-data'>
+                                            <div className='image-title'>
+                                                Nature's Beauty
+                                            </div>
+                                            <div className='image-author'>
+                                                @username
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='image-stats'>
+                                        <div className='image-likes'>
+                                            <svg width="24" height="24" fill="#000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M20.206 4.793a5.938 5.938 0 0 0-4.21-1.754 5.9 5.9 0 0 0-3.995 1.558 5.904 5.904 0 0 0-6.279-1.1 5.942 5.942 0 0 0-1.93 1.3c-2.354 2.363-2.353 6.06.001 8.412L12 21.416l8.207-8.207c2.354-2.353 2.355-6.049-.002-8.416Z"></path>
+                                            </svg>
+                                            <div className='likes-count'>
+                                                1m
+                                            </div>
+                                        </div>
+                                        <div className='image-downloads'>
+                                            <svg width="24" height="24" fill="#000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="m12 16 4-5h-3V4h-2v7H8l4 5Z"></path>
+                                                <path d="M20 18H4v-7H2v7c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-7h-2v7Z"></path>
+                                            </svg>
+                                            <div className='downloads-count'>
+                                                1k
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
