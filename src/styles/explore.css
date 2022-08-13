@@ -206,4 +206,134 @@
 .explore .categories-container .categories .category:hover {
   background: #e7e7e7;
 }
+
+.explore .gallery .gallery-container {
+  border-top: 1px solid #e7e7e7;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.explore .gallery .gallery-container .date {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: #fff;
+  -webkit-transform: translate(30px, -20px);
+          transform: translate(30px, -20px);
+  font-weight: 700;
+}
+
+.explore .gallery .gallery-container .date:hover {
+  background: #e7e7e7;
+}
+
+.explore .gallery .gallery-container .cards-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.explore .gallery .gallery-container .cards-container .card {
+  width: 400px;
+}
+
+.explore .gallery .gallery-container .cards-container .card .card-image {
+  background: #e7e7e7;
+  height: 240px;
+  border-radius: 20px 20px 0 0;
+}
+
+.explore .gallery .gallery-container .cards-container .card .card-data-container {
+  padding: 1rem 0;
+}
+
+.explore .gallery .gallery-container .cards-container .card .card-data-container .card-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.explore .gallery .gallery-container .cards-container .card .card-data-container .card-data .data-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.explore .gallery .gallery-container .cards-container .card .card-data-container .card-data .data-left .card-pfp {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #e7e7e7;
+}
+
+.explore .gallery .gallery-container .cards-container .card .card-data-container .card-data .data-left .image-data .image-title {
+  font-weight: 500;
+}
+
+.explore .gallery .gallery-container .cards-container .card .card-data-container .card-data .data-left .image-data .image-author {
+  color: #a7a7a7;
+}
+
+.explore .gallery .gallery-container .cards-container .card .card-data-container .card-data .image-stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.explore .gallery .gallery-container .cards-container .card .card-data-container .card-data .image-stats .image-likes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.explore .gallery .gallery-container .cards-container .card .card-data-container .card-data .image-stats .image-likes .likes-count {
+  color: #a7a7a7;
+}
+
+.explore .gallery .gallery-container .cards-container .card .card-data-container .card-data .image-stats .image-downloads {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.explore .gallery .gallery-container .cards-container .card .card-data-container .card-data .image-stats .image-downloads .downloads-count {
+  color: #a7a7a7;
+}
 /*# sourceMappingURL=explore.css.map */
